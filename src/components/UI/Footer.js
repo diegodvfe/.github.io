@@ -1,5 +1,5 @@
 import iconLinkedIn from '../../assets/img/icon-linkedin.webp';
-import iconTwitter from '../../assets/img/icon-twitter.webp';
+// import iconTwitter from '../../assets/img/icon-twitter.webp';
 import iconGitHub from '../../assets/img/icon-github.webp';
 import iconReact from '../../assets/img/icon-react.svg';
 import iconTailwind from '../../assets/img/icon-tailwind.svg';
@@ -26,9 +26,9 @@ const Footer = props => {
                         <EmailOptions />
                     </div>
                     <div class="mt-14 flex justify-between">
-                        <IconBlack icon={iconLinkedIn} goTo='https://www.linkedin.com/in/damian-demasi/' ariaLabel='LinkedIn'>LinkedIn</IconBlack>
-                        <IconBlack icon={iconTwitter} goTo='https://twitter.com/DamianDemasi' ariaLabel='Twitter'>Twitter</IconBlack>
-                        <IconBlack icon={iconGitHub} goTo='https://github.com/Colo-Codes' ariaLabel='GitHub'>GitHub</IconBlack>
+                        <IconBlack icon={iconLinkedIn} goTo='https://www.linkedin.com/in/diego-l%C3%B3pez-821b39196/' ariaLabel='LinkedIn'>LinkedIn</IconBlack>
+                        {/* <IconBlack icon={iconTwitter} goTo='https://twitter.com/DamianDemasi' ariaLabel='Twitter'>Twitter</IconBlack> */}
+                        <IconBlack icon={iconGitHub} goTo='https://github.com/diegodvfe' ariaLabel='GitHub'>GitHub</IconBlack>
                     </div>
                     <div class='mt-10 text-xs'>
                         <p>👨‍💻 Portfolio site made by Diego Alvarado, using<img src={iconReact} alt="" class='w-7 inline -mx-1' />ReactJS, <img src={iconTailwind} alt="" class='w-4 inline mx-1' />TailwindCSS and DaisyUI.</p>

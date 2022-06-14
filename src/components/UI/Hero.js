@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import locationPin from '../../assets/img/locationPin.png';
 // import hero1 from '../../assets/img/hero1.webp';
-import resume from '../../assets/pdf/Damian-Demasi-Resume.pdf';
+import resume from '../../assets/pdf/cvtech.pdf';
 import EmailOptions from './EmailOptions';
 
 const Hero = props => {
