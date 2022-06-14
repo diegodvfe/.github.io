@@ -2,7 +2,7 @@
 
 I launched my portfolio site on September 2021. You can take a look at it [here](https://github.com/diegodvfe).
 
-![image](https://user-images.githubusercontent.com/12278078/134096402-fb64c54f-6b04-4921-8968-580e841b06b7.png)
+![image](https://github.com/diegodvfe/diegodvfe.github.io/blob/master/src/assets/portada.png)
 
 The website includes:
 - A list of my latest projects
