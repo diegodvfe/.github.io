@@ -11,40 +11,16 @@ const ProjectsSection = props => {
             <section id="section-projects">
                 <SectionHeader text={'Projects'} headerGradientStyle={'header-projects'} />
                 <ProjectRight
-                    projectTitle={'COVID-19 Dashboard'}
-                    bgImage={'bg-virus'}
+                    projectTitle={'Task Manager'}
+                    bgImage={'bg-to-do'}
                     techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'Figma', 'Netlify']}
-                    buttonWatchItLive={'https://colo-codes.github.io/mini-projects/covid-19-dashboard-app/'}
-                    buttonDescription={'https://blog.damiandemasi.com/my-second-vanilla-javascript-project-using-apis-promises-classes-error-handling-and-more'}
-                    buttonGitHub={'https://github.com/Colo-Codes/mini-projects/tree/main/covid-19-dashboard-app'}>
+                    buttonWatchItLive={'https://celadon-dragon-7a7e71.netlify.app/'}
+                    buttonGitHub={''}>
                     <ParagraphLight>
-                        <p>This project was one of my favourite tools for breaking my way out of tutorial hell 👹. I also wanted this project to serve me as a display of my JavaScript skills to potential employers or collaborators.</p>
+                        <p>An application to be able to manage tasks, creating projects where users can create their accounts and add collaborators by project to be able to keep a better control with the pending tasks, they can also create, edit, delete tasks, the project is made with an Api -rest with fullStack MERN technologies.</p>
                     </ParagraphLight>
                     <ParagraphLight>
-                        <p>By the time I decided to start working on this project I had just finished learning about Promises, async...await, APIs and error handling. I wanted to code a project to implement all of this knowledge.</p>
-                    </ParagraphLight>
-                    <ParagraphLight>
-                        <H4Header>Lessons learned</H4Header>
-                    </ParagraphLight>
-                    <ParagraphLight>
-                        <p>At the start, this project seemed simple, but it quickly got complicated, especially because I was dealing with three different APIs (and a couple more that didn’t work in the end).</p>
-                    </ParagraphLight>
-                    <ParagraphLight>
-                        <p>I didn’t spend much time on HTML, but CSS proved to be demanding once more 😅. Thanks to the challenges I faced I gain more CSS skills and learned how to better debug it.</p>
-                    </ParagraphLight>
-                    <ParagraphLight>
-                        <p>Regarding JavaScript, I could have implemented MVC from the get-go, so I will do that in my next project. As I previously said, I prefer not to refactor this project and leave it as a witness of my skills at the time.</p>
-                    </ParagraphLight>
-                    <ParagraphLight>
-                        <p>APIs are reliable… most of the time 🤭. I’m sure paid APIs perform better, so if I need to use them in the future for a more serious project, I will research deeply what is the best API to get for the job.</p>
-                    </ParagraphLight>
-                    <ParagraphLight>
-                        <p>This project still has room for improvement, but I had to make the decision to stop working on it at some point. Overall, I think it’s functioning as expected.</p>
-                    </ParagraphLight>
-                    <ParagraphLight>
-                        <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/61NIjXcV5wg" title="COVID-19 Dashboard App Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}></iframe>
-                        </div>
+                        <img src="https://github.com/url-classes/proyecto-grupal---frontend-tasksmern/blob/main/asessts/9.png?raw=true" alt='Diego Alvarado with a hat in a park on a sunny day.'/>
                     </ParagraphLight>
                 </ProjectRight>
                 <ProjectLeft
