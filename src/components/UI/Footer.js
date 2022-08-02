@@ -6,7 +6,7 @@ import iconTailwind from '../../assets/img/icon-tailwind.svg';
 import locationPin from '../../assets/img/locationPin.webp';
 import IconBlack from "./IconBlack";
 import NavbarFooter from "./NavbarFooter";
-import resume from '../../assets/pdf/Damian-Demasi-Resume.pdf';
+import resume from '../../assets/pdf/cvtech.pdf';
 import EmailOptions from './EmailOptions';
 
 
@@ -22,7 +22,7 @@ const Footer = props => {
                     </h1>
                     <a href={resume} target='_blank' rel="noreferrer" class='btn mr-10 btn-md mb-5 sm:mb-0'>Get my Resume</a>
                     <div class="dropdown dropdown-hover">
-                        <a href='mailto:work@damiandemasi.com' target='_blank' rel="noreferrer" class="btn btn-outline btn-md">alv.diego19@gmail.com</a>
+                        <a href='mailto:alv.diego19@gmail.com' target='_blank' rel="noreferrer" class="btn btn-outline btn-md">alv.diego19@gmail.com</a>
                         <EmailOptions />
                     </div>
                     <div class="mt-14 flex justify-between">

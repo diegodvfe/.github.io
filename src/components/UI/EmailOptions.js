@@ -5,7 +5,7 @@ const EmailOptions = props => {
     const [successMessage, setSuccessMessage] = useState('');
 
     const clickHandler = e => {
-        copy('work@damiandemasi.com');
+        copy('alv.diego19@gmail.com');
         setSuccessMessage('tooltip tooltip-open tooltip-accent');
         setTimeout(() => {
             setSuccessMessage('');
