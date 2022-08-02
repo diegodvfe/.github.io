@@ -6,7 +6,7 @@ import iconTailwind from '../../assets/img/icon-tailwind.svg';
 import locationPin from '../../assets/img/locationPin.webp';
 import IconBlack from "./IconBlack";
 import NavbarFooter from "./NavbarFooter";
-import resume from '../../assets/pdf/cvtech.pdf';
+// import resume from '../../assets/pdf/cvtech.pdf';
 import EmailOptions from './EmailOptions';
 
 
@@ -20,7 +20,7 @@ const Footer = props => {
                     <h1 class='mb-5  font-bold font-poppins'>
                         <span class='block text-md lg:text-xl'>Diego Alvarado,</span><span class='text-3xl lg:text-5xl subpixel-antialiased'>web<br />developer</span>
                     </h1>
-                    <a href={resume} target='_blank' rel="noreferrer" class='btn mr-10 btn-md mb-5 sm:mb-0'>Get my Resume</a>
+                    <a href='' target='_blank' rel="noreferrer" class='btn mr-10 btn-md mb-5 sm:mb-0'>Get my Resume</a>
                     <div class="dropdown dropdown-hover">
                         <a href='mailto:alv.diego19@gmail.com' target='_blank' rel="noreferrer" class="btn btn-outline btn-md">alv.diego19@gmail.com</a>
                         <EmailOptions />

@@ -23,13 +23,13 @@ const ProjectsSection = props => {
                         <img src="https://github.com/url-classes/proyecto-grupal---frontend-tasksmern/blob/main/asessts/9.png?raw=true" alt='Diego Alvarado with a hat in a park on a sunny day.'/>
                     </ParagraphLight>
                 </ProjectRight>
-                <ProjectLeft
+                {/* <ProjectLeft
                     projectTitle={'To-Do app'}
                     bgImage={'bg-to-do'}
                     techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'Figma', 'Netlify']}
-                    buttonWatchItLive={'https://colo-codes.github.io/mini-projects/todo-app/'}
-                    buttonDescription={'https://blog.damiandemasi.com/my-first-vanilla-javascript-project-making-a-simple-to-do-app'}
-                    buttonGitHub={'https://github.com/Colo-Codes/mini-projects/tree/main/todo-app'}>
+                    // buttonWatchItLive={'https://colo-codes.github.io/mini-projects/todo-app/'}
+                    // buttonDescription={'https://blog.damiandemasi.com/my-first-vanilla-javascript-project-making-a-simple-to-do-app'}
+                    // buttonGitHub={'https://github.com/Colo-Codes/mini-projects/tree/main/todo-app'}>
                     <ParagraphLight>
                         <p>Doing courses and tutorials is great, but sometimes is difficult to evaluate how much are we actually learning. Watching video after video and coding along with the instructor gives us very good guidance, but it is not a realistic scenario. In a real-world job, we will have to solve problems and start figuring things out by ourselves (with the help of Google, of course 😉). So, to test how much I was actually learning during the JavaScript course I was doing I decided to make a simple To-Do app in HTML, CSS and vanilla JavaScript.</p>
                     </ParagraphLight>
@@ -56,7 +56,7 @@ const ProjectsSection = props => {
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/vAL7ocx5oZI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}></iframe>
                         </div>
                     </ParagraphLight>
-                </ProjectLeft>
+                </ProjectLeft> */}
             </section>
             {/* <section id="section-code-library">
           <SectionHeader text={'Code Library'} headerGradientStyle={'header-projects'} class={'mt-52'} />
