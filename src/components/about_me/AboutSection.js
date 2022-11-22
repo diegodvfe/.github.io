@@ -7,10 +7,10 @@ const AboutSection = props => {
         <div class='bg-black pb-32'>
             <section id='section-about'>
                 <SectionHeader text={'About Me'} headerGradientStyle={'header-about-me'} />
-                <AboutMe projectTitle={`Hi! 👋 I'm Diego`} bgImage={'bg-virus'} techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'React', 'Figma', 'Netlify', 'Linux']}>
+                <AboutMe projectTitle={`Hi! 👋 I'm Diego`} bgImage={'bg-virus'} techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'React', 'Figma', 'Netlify']}>
                     
                     <ParagraphLight>
-                        It was inevitable that I started playing with HTML also. I used to make very rudimentary pages about things I liked and hosting them on <a class='link link-primary' href='https://en.wikipedia.org/wiki/Yahoo!_GeoCities' target='_blank' rel='noreferrer'>GeoCities</a> for free.
+                        I start coding in the school and create projects with Turbo Pascal, and visual studio. I discover Flash, Html, Css and Dreaweaver to make simple websites.
                     </ParagraphLight>
 
                     <ParagraphLight>
@@ -24,6 +24,10 @@ const AboutSection = props => {
                     </ParagraphLight>
                     <ParagraphLight>
                         I’m a firm believer in the growth mindset concept, and that “life is not about finding yourself, but about creating yourself” (George Bernard Shaw).
+                    </ParagraphLight>
+
+                    <ParagraphLight>
+                    My hobbies are: draw, coffee lover, hiking,  volunteer and many ONG, learn new languages. 
                     </ParagraphLight>
                 </AboutMe>
             </section>

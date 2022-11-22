@@ -27,8 +27,8 @@ const Footer = props => {
                     </div>
                     <div class="mt-14 flex justify-between">
                         <IconBlack icon={iconLinkedIn} goTo='https://www.linkedin.com/in/diego-l%C3%B3pez-cugt/' ariaLabel='LinkedIn'>LinkedIn</IconBlack>
-                        {/* <IconBlack icon={iconTwitter} goTo='https://twitter.com/DamianDemasi' ariaLabel='Twitter'>Twitter</IconBlack> */}
                         <IconBlack icon={iconGitHub} goTo='https://github.com/diegodvfe' ariaLabel='GitHub'>GitHub</IconBlack>
+                        {/* <IconBlack icon={iconTwitter} goTo='https://twitter.com/DamianDemasi' ariaLabel='Twitter'>Twitter</IconBlack> */}
                     </div>
                     <div class='mt-10 text-xs'>
                         <p>👨‍💻 Portfolio site made by Diego Alvarado🤩💪🏼, using<img src={iconReact} alt="" class='w-7 inline -mx-1' />ReactJS, <img src={iconTailwind} alt="" class='w-4 inline mx-1' />TailwindCSS and DaisyUI.</p>
