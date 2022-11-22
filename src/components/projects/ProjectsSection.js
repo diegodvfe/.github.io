@@ -15,7 +15,7 @@ const ProjectsSection = props => {
                     bgImage={'bg-to-do'}
                     techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'Figma', 'Netlify']}
                     buttonWatchItLive={'https://celadon-dragon-7a7e71.netlify.app/'}
-                    buttonGitHub={''}>
+                    buttonGitHub={'https://github.com/diegodvfe/task.manager'}>
                     <ParagraphLight>
                         <p>An application to be able to manage tasks, creating projects where users can create their accounts and add collaborators by project to be able to keep a better control with the pending tasks, they can also create, edit, delete tasks, the project is made with an Api -rest with fullStack MERN technologies.</p>
                     </ParagraphLight>
@@ -27,7 +27,7 @@ const ProjectsSection = props => {
                     projectTitle={'Bank App'}
                     bgImage={'bg-to-do'}
                     techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'Figma']}
-                    buttonWatchItLive={''}
+                    buttonWatchItLive={'https://bankapp-beta.vercel.app/'}
                     //  buttonDescription={'https://blog.damiandemasi.com/my-first-vanilla-javascript-project-making-a-simple-to-do-app'}
                     buttonGitHub={'https://github.com/diegodvfe/bankapp'}>
                     <ParagraphLight>
@@ -50,9 +50,8 @@ const ProjectsSection = props => {
                     </ParagraphLight>
                     <ParagraphLight>
                         <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
-                            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=4_um8nXBkVE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}></iframe>
-                          <p>Link to check our project  
-                          <a href="https://www.youtube.com/watch?v=4_um8nXBkVE">Youtube</a></p>
+                          <img src="../assets/img/1hh.PNNG" alt="PROJECT" />
+                            {/* <iframe width="560" height="315" src="../" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}></iframe> */}
                         </div>
                     </ParagraphLight>
                 </ProjectLeft> }

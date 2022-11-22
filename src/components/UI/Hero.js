@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import locationPin from '../../assets/img/locationPin.png';
 // import hero1 from '../../assets/img/hero1.webp';
-import resume from '../../assets/pdf/cvtech.pdf';
+import resume from '../../assets/pdf/dev-cv.pdf';
 import EmailOptions from './EmailOptions';
 
 const Hero = props => {
@@ -63,11 +63,11 @@ const Hero = props => {
                 <div class='max-w-2xl'>
                     <p class='mb-5'><span><img src={locationPin} class='h-4 inline mb-1 mr-1' alt='Location pin icon' /></span>Antigua Guatemala, Guatemala</p>
                     <h1 class='mb-3 font-bold font-poppins'>
-                        <span class={tailwindClassName}>Diego Alvarado,</span><br /><span class={tailwindClassWeb}>Frontend</span><br /><span class={tailwindClassDeveloper}>Developer</span>
+                        <span class={tailwindClassName}>Diego Alvarado,</span><br /><span class={tailwindClassWeb}>Web</span><br /><span class={tailwindClassDeveloper}>Developer</span>
                     </h1>
                     <p class='my-8 md:my-16 text-neutral xl:leading-loose'>
                         I’m a Web Developer based in Antigua Guatemala, Guatemala.
-                         I am study Software Engineer, and
+                         I am self-taught Software Engineer, and
                          coding is my passion and my new professional career focus. Developing applications for the web has become my drive.
                     </p>
                     <a href={resume} target='_blank' rel="noreferrer" class='btn mr-10 btn-md text-xs mb-5 sm:mb-0'>Get my Resume</a>

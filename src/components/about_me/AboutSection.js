@@ -8,9 +8,7 @@ const AboutSection = props => {
             <section id='section-about'>
                 <SectionHeader text={'About Me'} headerGradientStyle={'header-about-me'} />
                 <AboutMe projectTitle={`Hi! 👋 I'm Diego`} bgImage={'bg-virus'} techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'React', 'Figma', 'Netlify', 'Linux']}>
-                    <ParagraphLight>
-                        My interest in technology started when I was a teenager and <a class='link link-primary' href='https://en.wikipedia.org/wiki/Dial-up_Internet_access' target='_blank' rel='noreferrer'>dial-up</a> Internet connections were booming. I remember how this new world can connect each other, I was really fascinate what i can do.
-                    </ParagraphLight>
+                    
                     <ParagraphLight>
                         It was inevitable that I started playing with HTML also. I used to make very rudimentary pages about things I liked and hosting them on <a class='link link-primary' href='https://en.wikipedia.org/wiki/Yahoo!_GeoCities' target='_blank' rel='noreferrer'>GeoCities</a> for free.
                     </ParagraphLight>

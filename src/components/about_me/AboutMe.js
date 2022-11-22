@@ -6,7 +6,7 @@ import ButtonLight from '../UI/ButtonLight';
 import H3Header from '../UI/H3Header';
 import IconWhite from '../UI/IconWhite';
 import TechStack from '../UI/TechStack';
-import resume from '../../assets/pdf/cvtech.pdf';
+import resume from '../../assets/pdf/dev-cv.pdf';
 
 const AboutMe = props => {
     return (
@@ -20,7 +20,7 @@ const AboutMe = props => {
                      target='_blank' rel="noreferrer">Get my Resume</ButtonLight>
                 </div>
                 <div class="w-4/5 mx-auto mt-14 flex justify-around">
-                    <IconWhite icon={iconLinkedIn} goTo='https://www.linkedin.com/in/diego-l%C3%B3pez-821b39196/' ariaLabel='LinkedIn'>LinkedIn</IconWhite>
+                    <IconWhite icon={iconLinkedIn} goTo='https://www.linkedin.com/in/diego-l%C3%B3pez-cugt/' ariaLabel='LinkedIn'>LinkedIn</IconWhite>
                     {/* <IconWhite icon={iconTwitter} goTo='https://twitter.com/DamianDemasi' ariaLabel='Twitter'>Twitter</IconWhite> */}
                     <IconWhite icon={iconGitHub} goTo='https://github.com/diegodvfe' ariaLabel='GitHub'>GitHub</IconWhite>
                 </div>
