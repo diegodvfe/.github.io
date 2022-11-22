@@ -26,14 +26,14 @@ const ProjectsSection = props => {
                 { <ProjectLeft
                     projectTitle={'Bank App'}
                     bgImage={'bg-to-do'}
-                    techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'Figma', 'Netlify']}
+                    techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'Figma']}
                     buttonWatchItLive={''}
-                     buttonDescription={'https://blog.damiandemasi.com/my-first-vanilla-javascript-project-making-a-simple-to-do-app'}
-                    buttonGitHub={'https://github.com/Colo-Codes/mini-projects/tree/main/todo-app'}>
+                    //  buttonDescription={'https://blog.damiandemasi.com/my-first-vanilla-javascript-project-making-a-simple-to-do-app'}
+                    buttonGitHub={'https://github.com/diegodvfe/bankapp'}>
                     <ParagraphLight>
-                        <p>Doing courses and tutorials is great, but sometimes is difficult to evaluate how much are we actually learning. Watching video after video and coding along with the instructor gives us very good guidance, but it is not a realistic scenario. In a real-world job, we will have to solve problems and start figuring things out by ourselves (with the help of Google, of course 😉). So, to test how much I was actually learning during the JavaScript course I was doing I decided to make a simple To-Do app in HTML, CSS and vanilla JavaScript.</p>
+                        <p>This is a small project that we use Html to give the struture of the app, we use Css birng some styling and finally i use javascript to give life web app, this containt funcionality to loggin and see the accounst. The main purpose its have a critical thinking and solve the a problem. </p>
                     </ParagraphLight>
-                    <ParagraphLight>
+                    <ParagraphLight>                                                                                    
                         <H4Header>Lessons learned</H4Header>
                     </ParagraphLight>
                     <ParagraphLight>
@@ -43,9 +43,6 @@ const ProjectsSection = props => {
                         <p>I learned about the importance of structuring HTML in a meaningful semantic way, and how a good HTML structure can make our lives easy when we start working on CSS and JavaScript in later stages of the project.</p>
                     </ParagraphLight>
                     <ParagraphLight>
-                        <p>I underestimated CSS 😅. The classes names are a bit funny and messy, so in the future, I'll try to implement BEM notation and maybe SASS. I discovered that some behaviour that initially thought of was in the realm of JavaScript can easily be achieved with CSS, such as animations on elements.</p>
-                    </ParagraphLight>
-                    <ParagraphLight>
                         <p>Regarding JavaScript, this was the first time I coded following the OOP paradigm and, despite feeling a bit out of my element, I now can see the potential that following this paradigm has.</p>
                     </ParagraphLight>
                     <ParagraphLight>
@@ -53,7 +50,7 @@ const ProjectsSection = props => {
                     </ParagraphLight>
                     <ParagraphLight>
                         <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vAL7ocx5oZI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}></iframe>
+                            <iframe width="560" height="315" src="https://youtu.be/4_um8nXBkVE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}></iframe>
                         </div>
                     </ParagraphLight>
                 </ProjectLeft> }
